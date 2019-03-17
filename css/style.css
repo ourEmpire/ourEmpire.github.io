@@ -479,3 +479,10 @@ figure.highlight:hover .copy {
 .gist .file {
   all: initial;
 }
+.content code {
+  color: #1c887e;
+  background: rgba(179,181,181,0.569);
+  padding: 2px;
+  border-radius: 2px;
+  font-size: 0.5em;
+}
