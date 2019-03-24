@@ -5,8 +5,7 @@
 <title>Learning html&amp;CSS - Empire</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
 
 
 
@@ -26,7 +25,7 @@
 
 
 
-<link rel="icon" href="/images/avatar.png">
+<link rel="icon" href="/images/favicon.svg">
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.7.2/css/bulma.css">
@@ -214,6 +213,20 @@
     <div class="card-content">
         <h3 class="title is-5 has-text-weight-normal">评论</h3>
         
+<div id="valine-thread" class="content"></div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#valine-thread' ,
+        notify: true,
+        verify: true,
+        app_id: '6VFhztKN04GljBMfoFrsWX90-gzGzoHsz',
+        app_key: 'c3VL0B4IPzSHd2j4QdPAgiTk',
+        placeholder: 'Say something...'
+    });
+</script>
+
     </div>
 </div>
 </div>
@@ -231,22 +244,22 @@
             <div class="level-item has-text-centered">
                 <div>
                     
-                        <img class="image is-128x128 has-mb-6" src="/images/avatar.png" alt="ourEmpire">
+                        <img class="image is-128x128 has-mb-6" src="/images/avatar.png" alt="Your name">
                     
                     
                     <p class="is-size-4 is-block">
-                        ourEmpire
+                        Your name
                     </p>
                     
                     
                     <p class="is-size-6 is-block">
-                        blog
+                        Your title
                     </p>
                     
                     
                     <p class="is-size-6 is-flex is-flex-center has-text-grey">
                         <i class="fas fa-map-marker-alt has-mr-7"></i>
-                        <span>ChangSha</span>
+                        <span>Your location</span>
                     </p>
                     
                 </div>
@@ -755,12 +768,6 @@ document.addEventListener('DOMContentLoaded', function () {
 <link rel="stylesheet" href="/css/search.css">
 <link rel="stylesheet" href="/css/insight.css">
     
-<script>
-        new Valine({
-            el: '#vcomments',
-            appId: '6VFhztKN04GljBMfoFrsWX90-gzGzoHsz',
-            appKey: 'c3VL0B4IPzSHd2j4QdPAgiTk'
-        })
-</script>
+
 </body>
 </html>
