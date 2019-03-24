@@ -486,3 +486,22 @@ figure.highlight:hover .copy {
   border-radius: 2px;
   font-size: 0.85em;
 }
+section {
+  color: #f00;
+}
+a {
+  -webkit-transition: padding 1s, color 1s linear, background-color 2s;
+}
+a:link {
+  color: #00f;
+  font-size: 15px;
+}
+a:visited {
+  color: #ff0;
+  font-size: 15px;
+}
+a:hover {
+  color: #f00;
+  font-size: 20px;
+  padding-left: 10px;
+}
