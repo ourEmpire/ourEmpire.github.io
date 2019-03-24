@@ -4,9 +4,9 @@
     <meta charset="utf-8">
 <title>春游 - Empire</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
 
 
 
@@ -257,7 +257,7 @@
                         文章
                     </p>
                     <p class="title has-text-weight-normal">
-                        3
+                        2
                     </p>
                 </div>
             </div>
@@ -394,25 +394,6 @@
         
         <article class="media">
             
-            <a href="/2019/03/24/Learnint-html-CSS/" class="media-left">
-                <p class="image is-64x64">
-                    <img class="thumbnail" src="https://ws1.sinaimg.cn/large/006Y07gTgy1g1dmv86tojj33282aob29.jpg" alt="Learning html&amp;CSS">
-                </p>
-            </a>
-            
-            <div class="media-content">
-                <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-03-24T01:25:50.000Z">2019-03-24</time></div>
-                    <a href="/2019/03/24/Learnint-html-CSS/" class="has-link-black-ter is-size-6">Learning html&amp;CSS</a>
-                    <p class="is-size-7 is-uppercase">
-                        
-                    </p>
-                </div>
-            </div>
-        </article>
-        
-        <article class="media">
-            
             <a href="/2019/03/24/Learning-html-CSS/" class="media-left">
                 <p class="image is-64x64">
                     <img class="thumbnail" src="https://ws1.sinaimg.cn/large/006Y07gTgy1g1dmv86tojj33282aob29.jpg" alt="Learning html&amp;CSS">
@@ -467,7 +448,7 @@
                     <span class="level-item">三月 2019</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">3</span>
+                    <span class="level-item tag">2</span>
                 </span>
             </a>
         </li>
@@ -507,25 +488,6 @@
         <h3 class="menu-label">
             最新文章
         </h3>
-        
-        <article class="media">
-            
-            <a href="/2019/03/24/Learnint-html-CSS/" class="media-left">
-                <p class="image is-64x64">
-                    <img class="thumbnail" src="https://ws1.sinaimg.cn/large/006Y07gTgy1g1dmv86tojj33282aob29.jpg" alt="Learning html&amp;CSS">
-                </p>
-            </a>
-            
-            <div class="media-content">
-                <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-03-24T01:25:50.000Z">2019-03-24</time></div>
-                    <a href="/2019/03/24/Learnint-html-CSS/" class="has-link-black-ter is-size-6">Learning html&amp;CSS</a>
-                    <p class="is-size-7 is-uppercase">
-                        
-                    </p>
-                </div>
-            </div>
-        </article>
         
         <article class="media">
             
@@ -583,7 +545,7 @@
                     <span class="level-item">三月 2019</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">3</span>
+                    <span class="level-item tag">2</span>
                 </span>
             </a>
         </li>
@@ -792,17 +754,11 @@ document.addEventListener('DOMContentLoaded', function () {
 <link rel="stylesheet" href="/css/insight.css">
     
 <script>
-    const gitment = new Gitment({
-  owner: 'ourEmpire',
-  repo: 'Comment',
-  oauth: {
-    client_id: '3e2899f184a4d8ebbae9',
-    client_secret: '9bda92336a31f8128ce17925985b6eaf93cac447',
-  },
-  // ...
-  // For more available options, check out the documentation below
-})
-    gitment.render('comments');
+        new Valine({
+            el: '#vcomments',
+            appId: '6VFhztKN04GljBMfoFrsWX90-gzGzoHsz',
+            appKey: 'c3VL0B4IPzSHd2j4QdPAgiTk'
+        })
 </script>
 </body>
 </html>
