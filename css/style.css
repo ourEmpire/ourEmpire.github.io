@@ -489,18 +489,18 @@ figure.highlight:hover .copy {
 section {
   color: #f00;
 }
-a {
+div.content a {
   -webkit-transition: padding 1s, color 1s linear, background-color 2s;
 }
-a:link {
+div.content a:link {
   color: #00f;
   font-size: 15px;
 }
-a:visited {
+div.content a:visited {
   color: #ff0;
   font-size: 15px;
 }
-a:hover {
+div.content a:hover {
   color: #f00;
   font-size: 20px;
   padding-left: 10px;
