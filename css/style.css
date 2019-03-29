@@ -505,3 +505,6 @@ div.content a:hover {
   font-size: 20px;
   padding-left: 10px;
 }
+#live2dcanvas {
+  bottom: -110px;
+}
